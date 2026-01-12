@@ -655,7 +655,9 @@
         "image_mwiftE",
         "group_tW86bH"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (min-width: 1000px) {.group-block-content {max-width: 400px; margin-left: auto; margin-right: auto; }}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -826,7 +828,9 @@
         "group_4Kt6yy",
         "image_znNVic"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (min-width: 1000px) {.group-block-content {max-width: 400px; margin-left: auto; margin-right: auto; }}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
