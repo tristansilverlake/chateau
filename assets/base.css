@@ -4062,3 +4062,25 @@ text-component {
   transform: translateY(1px);
 }
 
+/* Flower headings */
+.chateau-flowers > .text-block > h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.chateau-flowers > .text-block > h2::before,
+.chateau-flowers > .text-block > h2::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0749/9333/6519/files/chateau-favicon.png?v=1767981604');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+.chateau-flowers > .text-block > h2::after {
+  transform: scaleX(-1); /* Horizontally flip the right image */
+}
+
