@@ -643,7 +643,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".button {letter-spacing: 1.6px;}"
+      ".button {letter-spacing: 1.6px;}",
+      "@media (max-width: 599px) {:root {--font-size--h1: clamp(2.1rem, 5.6vw, 3.5rem); --font-size--h2: 1.85rem; --font-size--h3: 1.3rem; } .chateau-flowers > .text-block > h2:before, .chateau-flowers > .text-block > h2:after {width: 44px; height: 44px; }}"
     ]
   }
 }
