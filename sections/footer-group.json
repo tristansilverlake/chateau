@@ -362,7 +362,8 @@
       ],
       "custom_css": [
         ".social-icons__icon-wrapper {--icon-size-lg: 2.5rem;}",
-        ".social-icons__icon-wrapper a {--button-color: #6d8576;}"
+        ".social-icons__icon-wrapper a {--button-color: #6d8576;}",
+        "@media (min-width: 1200px) {.group-block:nth-child(2) .group-block-content {display: grid; grid-template-columns: 1fr 1fr; row-gap: 1rem; } .group-block:nth-child(2) .group-block-content > *:nth-child(3) {grid-column: 1 / -1; }}"
       ],
       "name": "t:names.footer",
       "settings": {
