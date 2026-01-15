@@ -483,6 +483,7 @@
         "image_XTDh7X"
       ],
       "custom_css": [
+        "@media (max-width: 749px) {.section-content-wrapper {flex-direction: column-reverse; }}",
         "@media (min-width: 1000px) {.group-block-content {max-width: 400px; margin-left: auto; margin-right: auto; }}"
       ],
       "name": "t:names.image_with_text",
@@ -829,6 +830,7 @@
         "image_znNVic"
       ],
       "custom_css": [
+        "@media (max-width: 749px) {.section-content-wrapper {flex-direction: column-reverse; }}",
         "@media (min-width: 1000px) {.group-block-content {max-width: 400px; margin-left: auto; margin-right: auto; }}"
       ],
       "name": "t:names.image_with_text",
